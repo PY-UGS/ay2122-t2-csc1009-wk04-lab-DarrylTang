@@ -10,17 +10,20 @@ public class Qn02 {
             System.out.print(stack.pop() + " ");
         }
 
-        System.out.println("");
-        StackOfIntegers stack2 = new StackOfIntegers(5);
-        for (int i=20; i<33 ; i++) {
-            stack2.push(i);
-        }
+        // --- below are codes that i used to try out different things on the stack,
+        // --- and also using the peek() and getSize() methods
+        
+        // System.out.println("");
+        // StackOfIntegers stack2 = new StackOfIntegers(5);
+        // for (int i=20; i<33 ; i++) {
+        //     stack2.push(i);
+        // }
 
-        System.out.println("Peeking stack: "+stack2.peek());
-        System.out.println("Size of stack is "+stack2.getSize());
+        // System.out.println("Peeking stack: "+stack2.peek());
+        // System.out.println("Size of stack is "+stack2.getSize());
 
-        while (!stack2.empty()) {
-            System.out.print(stack2.pop() + " ");
-        }
+        // while (!stack2.empty()) {
+        //     System.out.print(stack2.pop() + " ");
+        // }
     }
 }

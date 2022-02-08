@@ -6,9 +6,9 @@ public class StackOfIntegers {
     }
 
     // not sure how to restrain the "capacity" of an array
-    public StackOfIntegers(int capacity) {
-        int[] elements = new int[capacity];
-    }
+    // public StackOfIntegers(int capacity) {
+    //     int[] elements = new int[capacity];
+    // }
 
     public boolean empty(){
         if (this.size <= 0){
